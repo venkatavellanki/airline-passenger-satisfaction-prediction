@@ -1,99 +1,110 @@
 # ✈️ Airline Passenger Satisfaction Prediction
 
-This project applies **Decision Tree** and **Naive Bayes** machine learning algorithms to predict airline passenger satisfaction.
+This project focuses on predicting airline passenger satisfaction using machine learning techniques such as **Decision Tree** and **Naive Bayes** classifiers.  
+It was developed as part of the **Data Mining and Analytics (DMA)** coursework during **Semester 7** at **SRM Institute of Science and Technology**.
 
-It was developed as a mini-project for the **DMA (Data Mining and Analytics)** course during **Semester 7** at **SRM Institute of Science and Technology**.
+The project explores factors that influence passenger satisfaction and attempts to classify whether a passenger is "Satisfied" or "Dissatisfied" based on input features.
+
+---
+
+## 🧠 Project Highlights
+
+- 📊 Exploratory Data Analysis (EDA)
+- 🧼 Data Preprocessing (null values, encoding)
+- 🔍 Feature Selection & Engineering
+- 🌲 Decision Tree Classification
+- 📈 Naive Bayes Classification
+- 📉 Evaluation: Accuracy, Precision, Recall, F1-Score
+- 📊 Data Visualization using **Matplotlib** and **Seaborn**
 
 ---
 
 ## 📁 Project Structure
 
+```
 airline-passenger-satisfaction-prediction/
+│
 ├── data/
-│   └── Airline_Passenger_Satisfaction.csv
+│   └── Airline_Passenger_Satisfaction.csv          # Input dataset
+│
 ├── src/
-│   └── airline_satisfaction.py
+│   └── airline_satisfaction.py                     # Main Python script
+│
 ├── output/
-│   ├── decision_tree_results.txt
-│   └── naive_bayes_results.txt
+│   ├── decision_tree_results.txt                   # Output metrics from Decision Tree
+│   └── naive_bayes_results.txt                     # Output metrics from Naive Bayes
+│
 ├── docs/
-│   ├── DMA_Project_Report.pdf
-│   └── DMA_Project_Presentation.pdf
-└── README.md
+│   ├── DMA_Project_Report.pdf                      # Project Report
+│   └── DMA_Project_Presentation.pdf                # Presentation Slides
+│
+└── README.md                                        # Project documentation
+```
 
-🧠 Techniques Used
-Data Preprocessing (null handling, encoding)
+---
 
-Feature Selection
+## 🛠 How to Run the Project
 
-Train-Test Split
+### 🧱 Requirements
 
-Decision Tree Classifier
+Ensure Python 3.8 or higher is installed. Install the following libraries before execution:
 
-Naive Bayes Classifier
-
-Evaluation Metrics: Accuracy, Precision, Recall, F1 Score
-
-Visualization using Matplotlib and Seaborn
-
-🛠 How to Run
-🧱 Requirements
-Python 3.8 or higher
-
-Required libraries:
-
-pandas
-
-numpy
-
-scikit-learn
-
-matplotlib
-
-seaborn
-
-📦 Install Dependencies
-bash
-Copy
-Edit
+```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
-💻 Run the Program
-bash
-Copy
-Edit
+```
+
+### 💻 Steps to Execute
+
+1. **Navigate to the project directory:**
+
+```bash
 cd src
+```
+
+2. **Run the main script:**
+
+```bash
 python airline_satisfaction.py
-✅ Ensure the dataset file Airline_Passenger_Satisfaction.csv is inside the data/ folder before running.
+```
 
-📊 Sample Results
-✅ Decision Tree Classifier:
-Accuracy: 95%
+> ✅ Make sure the file `Airline_Passenger_Satisfaction.csv` is placed in the `data/` folder before executing the script.
 
-F1 Score: 0.95
+3. **Check the results** in the `output/` directory for performance metrics of both classifiers.
 
-📉 Naive Bayes Classifier:
-Accuracy: 84%
+---
 
-F1 Score: 0.82
+## 📊 Sample Results
 
-🔍 Key Insights
-The Decision Tree model showed better performance.
+### 🔹 Decision Tree Classifier
 
-Most influential features:
+- Accuracy: **95%**  
+- F1 Score: **0.95**
 
-In-flight Service
+### 🔸 Naive Bayes Classifier
 
-Seat Comfort
+- Accuracy: **84%**  
+- F1 Score: **0.82**
 
-Online Boarding
+---
 
-Departure Delay
+## 🔍 Key Observations
 
-📄 Disclaimer
-This project was developed by Venkat Aditya Vellanki (RA2111003011799)
-as part of Semester 7 - DMA coursework at SRM Institute of Science and Technology.
+- The **Decision Tree** model consistently outperforms Naive Bayes across all evaluation metrics.
+- Top features influencing customer satisfaction include:
+  - **In-flight Service**
+  - **Seat Comfort**
+  - **Online Boarding**
+  - **Departure Delay**
 
-The repository is strictly for academic and educational purposes only.
-Not optimized for commercial or production deployment.
+---
 
-© 2024 **Venkat Aditya Vellanki**. All rights reserved.
+## 📄 Disclaimer
+
+This project was developed by **Venkat Aditya Vellanki (RA2111003011799)** for the **DMA** course in **Semester 7** at **SRM Institute of Science and Technology**.
+
+The repository and its contents are meant strictly for **academic and educational** purposes.  
+The code, models, and dataset are not optimized for production-level deployment and require further validation.
+
+© 2024 Venkat Aditya Vellanki. All rights reserved.
+
+---
