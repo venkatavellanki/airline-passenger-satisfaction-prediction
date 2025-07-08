@@ -21,48 +21,42 @@ The project explores factors that influence passenger satisfaction and attempts 
 
 ## 📁 Project Structure
 
+
 ```
 airline-passenger-satisfaction-prediction/
-│
 ├── data/
-│   └── Airline_Passenger_Satisfaction.csv          # Input dataset
-│
+│   └── Airline_Passenger_Satisfaction.csv
 ├── src/
-│   └── airline_satisfaction.py                     # Main Python script
-│
+│   └── airline_satisfaction.py
 ├── output/
-│   ├── decision_tree_results.txt                   # Output metrics from Decision Tree
-│   └── naive_bayes_results.txt                     # Output metrics from Naive Bayes
-│
+│   ├── decision_tree_results.txt
+│   └── naive_bayes_results.txt
 ├── docs/
-│   ├── DMA_Project_Report.pdf                      # Project Report
-│   └── DMA_Project_Presentation.pdf                # Presentation Slides
-│
-└── README.md                                        # Project documentation
+│   ├── DMA_Project_Report.pdf
+│   ├── DMA_Project_Presentation.pdf
+│   └── Airline_Passenger_Satisfaction_Colab.ipynb
+└── README.md
 ```
 
 ---
----
+
 
 ## 🧠 Techniques Used
 
-- Data Cleaning and Preprocessing
-  - Handling null values
-  - Label Encoding
-- Exploratory Data Analysis (EDA)
+- Data Preprocessing (Null handling, Encoding)
+
 - Feature Selection
+
 - Train-Test Split
+
 - Decision Tree Classifier
+
 - Naive Bayes Classifier
-- Evaluation Metrics:
-  - Accuracy
-  - Precision
-  - Recall
-  - F1 Score
-- Data Visualization:
-  - Confusion Matrix
-  - Accuracy Charts
-  - Countplots using Seaborn
+
+- Evaluation Metrics: Accuracy, Precision, Recall, F1 Score
+
+- Visualisation using Matplotlib and Seaborn
+
 
 ---
 
