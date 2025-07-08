@@ -29,8 +29,8 @@ airline-passenger-satisfaction-prediction/
 ├── src/
 │   └── Airline_Passenger_Satisfaction.py
 ├── output/
-│   ├── decision_tree_results.txt
-│   └── naive_bayes_results.txt
+│   ├── Decision_Trees_Results.txt
+│   └── Naive_Bayes_Results.txt
 ├── docs/
 │   ├── Airline_Passenger_Satisfaction__Report.pdf
 │   ├── Airline_Passenger_Satisfaction_Presentation.pdf
