@@ -32,8 +32,8 @@ airline-passenger-satisfaction-prediction/
 │   ├── decision_tree_results.txt
 │   └── naive_bayes_results.txt
 ├── docs/
-│   ├── DMA_Project_Report.pdf
-│   ├── DMA_Project_Presentation.pdf
+│   ├── Airline_Passenger_Satisfaction__Report.pdf
+│   ├── Airline_Passenger_Satisfaction_Presentation.pdf
 │   └── Airline_Passenger_Satisfaction_Colab.ipynb
 └── README.md
 ```
