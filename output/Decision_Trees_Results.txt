@@ -1,0 +1,13 @@
+Decision Tree Classifier Results:
+Accuracy: 0.95
+F1 Score: 0.95
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.94      0.94       589
+           1       0.95      0.96      0.95       611
+
+    accuracy                           0.95      1200
+   macro avg       0.95      0.95      0.95      1200
+weighted avg       0.95      0.95      0.95      1200
