@@ -1,26 +1,7 @@
 # ✈️ Airline Passenger Satisfaction Prediction
 
-A machine learning project using **Decision Tree** and **Naive Bayes** classifiers to analyze airline passenger satisfaction.  
-Developed as part of the **Data Mining and Analytics (DMA)** course in **Semester 7** at **SRM Institute of Science and Technology**.
-
----
-
-## 🎯 Objective
-
-- Analyze factors affecting airline passenger satisfaction.
-- Train and evaluate Decision Tree and Naive Bayes classifiers.
-- Compare model performance on accuracy, precision, and recall.
-
----
-
-## 🧠 Techniques & Concepts Used
-
-- Data Preprocessing & Cleaning  
-- One-hot Encoding  
-- Train-Test Split  
-- Decision Tree Classification  
-- Naive Bayes Classification  
-- Accuracy, Precision, Recall, F1 Score
+This project applies **Decision Tree** and **Naive Bayes** machine learning algorithms to predict airline passenger satisfaction.  
+It was developed as a **mini-project for the DMA (Data Mining and Analytics) course** during **Semester 7** at **SRM Institute of Science and Technology**.
 
 ---
 
@@ -39,44 +20,72 @@ airline-passenger-satisfaction-prediction/
 │ └── DMA_Project_Presentation.pdf
 └── README.md
 
+yaml
+Copy
+Edit
+
+---
+
+## 🧠 Techniques Used
+
+- Data Preprocessing (Null handling, Encoding)
+- Feature Selection
+- Train-Test Split
+- Decision Tree Classifier
+- Naive Bayes Classifier
+- Evaluation Metrics: Accuracy, Precision, Recall, F1 Score
+- Visualization using Matplotlib and Seaborn
+
 ---
 
 ## 🛠 How to Run
 
 ### 🧱 Requirements
 
-- Python 3.8+
-- Libraries:
-  - pandas
-  - numpy
-  - scikit-learn
-  - matplotlib
-  - seaborn
+- Python 3.8 or higher
+- Required Python Libraries:
+  - `pandas`
+  - `numpy`
+  - `scikit-learn`
+  - `matplotlib`
+  - `seaborn`
 
-### 💻 Run the Program
+Install dependencies using:
 
 ```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
+💻 Run the Program
+Open terminal or command prompt
+
+Navigate to the src/ directory:
+
+bash
+Copy
+Edit
 cd src
+Run the script:
+
+bash
+Copy
+Edit
 python airline_satisfaction.py
+✅ Ensure the dataset file Airline_Passenger_Satisfaction.csv is placed inside the data/ directory.
 
 📊 Sample Results
 Decision Tree Classifier:
-
 Accuracy: 95%
 
 F1 Score: 0.95
 
 Naive Bayes Classifier:
-
 Accuracy: 84%
 
 F1 Score: 0.82
 
-Insights:
+🔍 Key Insights
+The Decision Tree model outperformed Naive Bayes in this dataset.
 
-Decision Tree showed better performance across all metrics.
-
-Top Influencing Factors:
+Top Features Influencing Satisfaction:
 
 In-flight Service
 
@@ -87,9 +96,10 @@ Online Boarding
 Departure Delay
 
 📄 Disclaimer
-This project was developed by Venkat Aditya Vellanki (RA2111003011799) for academic purposes during the DMA course in Semester 7 at SRM Institute of Science and Technology.
+This project was developed by Venkat Aditya Vellanki (RA2111003011799)
+as part of Semester 7 DMA coursework at SRM Institute of Science and Technology.
 
-All resources, code, and data are meant strictly for educational and non-commercial use only.
-This is not intended for production or real-time deployment without further development and validation.
+This project is strictly for academic and educational use only.
+It is not optimized for commercial or production deployment without further testing, validation, and improvements.
 
-© 2024 Venkat Aditya Vellanki. All rights reserved.
+© 2024 **Venkat Aditya Vellanki**. All rights reserved.
