@@ -42,12 +42,43 @@ airline-passenger-satisfaction-prediction/
 ```
 
 ---
+---
+
+## 🧠 Techniques Used
+
+- Data Cleaning and Preprocessing
+  - Handling null values
+  - Label Encoding
+- Exploratory Data Analysis (EDA)
+- Feature Selection
+- Train-Test Split
+- Decision Tree Classifier
+- Naive Bayes Classifier
+- Evaluation Metrics:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1 Score
+- Data Visualization:
+  - Confusion Matrix
+  - Accuracy Charts
+  - Countplots using Seaborn
+
+---
 
 ## 🛠 How to Run the Project
 
 ### 🧱 Requirements
 
-Ensure Python 3.8 or higher is installed. Install the following libraries before execution:
+- Python 3.8 or higher  
+- Required Python Libraries:
+  - `pandas`
+  - `numpy`
+  - `scikit-learn`
+  - `matplotlib`
+  - `seaborn`
+
+### 📦 Install Dependencies
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
