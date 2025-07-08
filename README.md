@@ -105,6 +105,6 @@ This project was developed by **Venkat Aditya Vellanki (RA2111003011799)** for t
 The repository and its contents are meant strictly for **academic and educational** purposes.  
 The code, models, and dataset are not optimized for production-level deployment and require further validation.
 
-© 2024 Venkat Aditya Vellanki. All rights reserved.
+© 2024 **Venkat Aditya Vellanki**. All rights reserved.
 
 ---
